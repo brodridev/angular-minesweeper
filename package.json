@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production --base-href /angular-minesweeper/",
-    "deploy": "gh-pages -d dist/minesweeper-game",
+    "deploy": "gh-pages -d dist/minesweeper-game/browser",
     "build:deploy": "npm run build:prod && npm run deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
